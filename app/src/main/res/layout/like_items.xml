@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <com.alexzh.circleimageview.CircleImageView
+            android:id="@+id/person_img_liked"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:clickable="true"
+            app:view_backgroundColor="@color/light_grey"
+            app:view_shadowRadius="1dp"
+            app:view_shadowDx="0dp"
+            app:view_shadowDy="0dp"
+            app:view_shadowColor="@color/light_grey"
+            app:view_borderWidth="2dp"
+            app:view_selectedColor="@color/blue"
+            app:view_borderColor="@android:color/white"/>
+    <TextView
+            android:id="@+id/name_liked_by"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:textColor="#191970"
+            android:visibility="gone"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

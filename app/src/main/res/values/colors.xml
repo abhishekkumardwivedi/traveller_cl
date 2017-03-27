@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46808F</color>
+    <color name="colorPrimaryDark">#315964</color>
+    <color name="colorAccent">#839BA2</color>
+    <color name="colorDivider">#E6EBEC</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#000000</color>
+    <color name="album_detail">#2f4f4f</color>
+    <color name="unselected">#00bfff</color>
+    <color name="unselectedBg">#ffffff</color>
+    <color name="selected">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="selectedBg">#00bfff</color>
+    <color name="semi_transparant">#50ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#00bfff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_grey">#cdc9c9</color>
+</resources>

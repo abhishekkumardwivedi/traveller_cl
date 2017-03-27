@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+            android:id="@+id/plan_details_content_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ViewStub
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/id_plan_view"
+                android:inflatedId="@+id/inflated_id_plan_view"
+                android:layout="@layout/plan_content_views"/>
+        <ViewStub
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/id_add_to_plan"
+                android:inflatedId="@+id/inflated_id_add_to_plan"
+                android:layout="@layout/add_to_plan"/>
+    </LinearLayout>
+    <!--<include layout="@layout/plan_content_views"/>-->
+</android.support.v4.widget.NestedScrollView>

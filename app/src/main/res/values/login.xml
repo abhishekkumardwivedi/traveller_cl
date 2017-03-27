@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="outing_preferences">What are your outing preferences</string>
+    <string name="weekend_around">Weekend small trips</string>
+    <string name="long_trips">Occasional long trips</string>
+
+    <string name="help_1">You can find popular destinations around you for short weekend ride or
+        long distance occasional trips.
+    </string>
+    <string name="help_2">You can add places to your planning list in a click and configure at any
+        comfortable time for reminders, including friends going along with
+    </string>
+    <string name="help_3">Get exciting destinations plan for special days like marriage days,
+        birthdays, kids summer vacation, year end, etc. And you know, you will forget by your work
+        pressure but we will remember to remind you on right time
+    </string>
+    <string name="help_4">"That is not the end. Once you start a journey, you will be routined with
+        whole schedule plan so you won't miss to book the hotel, food during drive time, and to
+        track your friends locations."
+    </string>
+    <string name="login">LOGIN</string>
+</resources>

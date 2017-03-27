@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".Home.HomeTabbedActivity">
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:visible="false"
+          app:showAsAction="never"/>
+    <item android:id="@+id/activity_my_profile"
+          android:title="My Profile"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/app_share_to_facebook"
+          android:title="Share in Facebook"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_logout"
+          android:title="@string/action_logout"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <!--<item-->
+            <!--android:id="@+id/action_search"-->
+            <!--android:orderInCategory="200"-->
+            <!--android:title="Search"-->
+            <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+            <!--android:icon="@android:drawable/ic_menu_search"-->
+            <!--app:showAsAction="always"/>-->
+    <item
+            android:id="@+id/action_map"
+            android:orderInCategory="200"
+            android:title="flip map"
+            android:icon="@drawable/map_24"
+            app:showAsAction="always"/>
+
+    <item
+            android:id="@+id/action_hangout"
+            android:orderInCategory="200"
+            android:title="Start hangout"
+            android:icon="@drawable/point_of_interest_24"
+            app:showAsAction="always"/>
+</menu>
